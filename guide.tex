@@ -1,0 +1,164 @@
+\documentclass[12pt,a4paper]{iopart}
+
+% Document information
+\newcommand{\DRN}{CAS-PUB-MDL-000002}
+\newcommand{\thisversion}{1.0}
+
+% Author information
+\input{common/authors/twhyntie.tex}
+
+% Packages and settings for CERN@school document formatting
+\input{common/tools/CERNatschool-packages.tex}
+
+% CERN@school macros and definitions
+\input{common/tools/defs.tex}
+
+% Journal short-cuts.
+\input{common/bib/journals}
+
+\begin{document}
+
+%
+% Title
+%
+% The CERN@school logo
+\input{common/tools/logoheader.tex}
+
+%\title{\titlefont %
+\title{%
+  The CERN@school Programme: \\
+  A Guide to the MoEDAL Experiment
+}
+% 
+% Author information
+\author{\theauthorinit$^{1, \, 2}$}
+%
+\address{$^1$\theauthoraddressA}
+\address{$^2$\theauthoraddressB}
+\ead{\mailto{\theauthoremail}}
+
+%-----------------------------------------------------------------------------
+% Abstract
+\begin{abstract}
+The MoEDAL experiment (Monopoles and Exotics Detector at the LHC)
+is the seventh major experiment at CERN's Large Hadron Collider.
+%It is housed in the underground cavern at Interaction Point (IP8) -- next
+%to the LHCb experiment as shown in Figure 1.
+%
+It is designed to probe the LHC's particle collisions
+for signs of Paul Dirac's hypothesised magnetic monopole,
+as well as other highly ionising signs of new physics that
+the other LHC experiments cannot easily look for.
+%
+The Institute for Research in Schools (IRIS) is a full member of 
+the MoEDAL Collaboration, and students associated with IRIS
+have access data from the MoEDAL experiment and are able to contribute
+to the MoEDAL Collaboration's research programme.
+%
+This document aims to provide a brief guide to the history, theory,
+and physics of the MoEDAL experiment so that IRIS students and teachers
+can take full advantage of these opportunities.
+\end{abstract}
+%-----------------------------------------------------------------------------
+
+{\color{white}Spacer}
+\\[4cm]
+
+% Add the license information (CC-BY-4).
+\input{common/tools/licenseCCBY4}
+
+\newpage
+
+% Add a table of contents.
+\setcounter{tocdepth}{2}
+\tableofcontents
+
+\clearpage
+
+\listoffigures
+
+\listoftables
+
+\clearpage
+
+%
+% Introduction
+%
+\input{intro/intro}
+
+\clearpage
+
+\input{theory/theory}
+
+\clearpage
+
+\input{search/search}
+
+\clearpage
+
+\input{exp/exp}
+
+\clearpage
+
+\input{getinvolved/getinvolved}
+
+\clearpage
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Bibliography
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\section{References}
+\bibliographystyle{unsrt.bst}
+\bibliography{MoEDAL}
+%
+%------------------------------------------------------------------------------
+
+\clearpage
+
+\input{acronyms}
+
+\clearpage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Acknowledgements}
+\label{sec:ack}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+This work was supported by the 
+UK Science and Technology Facilities Council (STFC) 
+via grant numbers 
+ST/J000256/1 
+and 
+ST/N00101X/1,
+as well as a Special Award from the Royal Commission for the Exhibition of 1851.
+%
+Computing resource and expertise was kindly provided by
+the UK's GridPP Collaboration~\cite{gridpp2006,gridpp2009}\footnote{
+\href{http://www.gridpp.ac.uk}{http://www.gridpp.ac.uk}}.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Version History}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%______________________________________________________________________________
+\begin{table}[h]
+\caption[Document version history]{\label{tab:version}Version history.}
+\lineup
+\begin{indented}
+\item[]\begin{tabular}{@{}cllc}
+\br
+\centre{1}{$\quad$Version    $\quad$} & 
+\centre{1}{$\quad$DOI        $\quad$} & 
+\centre{1}{$\quad$Description$\quad$} &
+\centre{1}{$\quad$Author     $\quad$} \\
+\mr
+1.0 & \href{http://doi.org/10.5281/zenodo.248615}{10.5281/zenodo.248615} & Initial version. & TW \\
+\br
+\end{tabular}
+\end{indented}
+\end{table}
+%______________________________________________________________________________
+
+\end{document}
