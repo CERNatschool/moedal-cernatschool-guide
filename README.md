@@ -1,4 +1,4 @@
-# The CERN@school Programme: A Guide to MoEDAL
+# The CERN@school Programme: A Guide to the MoEDAL Experiment
 
 This repository contains all of the LaTeX code needed to generate
 the [CERN@school programme's guide to the MoEDAL experiment](http://doi.org/10.5281/zenodo.248615).
@@ -10,7 +10,7 @@ the LHC, CERN and the Institute for Research in Schools.
 Thanks to the Creative Commons licensing system,
 most of the images required to make this document can be hosted on
 the GitHub repository. However, you will need to download two
-images from the CERN Document Server (CDS):
+images from the CERN Document Server (CDS) yourself:
 
 * The LHC aerial view - see `assets/images/lhc/README.md`
 * The Standard Model of particle physics - see `assets/images/sm/README.md`
